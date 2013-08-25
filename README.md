@@ -1,4 +1,4 @@
-# SoundControl - Music management
+# SoundControl - Music Management
 
 
 ## Introduction
@@ -20,17 +20,14 @@ music.pauseAll();
 // resume playback in previously paused audio player
 music.resume();
 
-// you can also start playback in a specific app
+// you can also start and stop playback in a specific app
 music.play('iTunes');
+music.pause('rdio');
 
 // there are also some utility methods that are used internally
 // but are exposed as they may be useful such as:
 music.isItunesPlaying(function(err, playing){
     if (playing) console.log('iTunes is currently playing');
-});
-
-music.isSpotifyOpen(function(err, open){
-    if (open) console.log('Spotify is currently open');
 });
 ```
 
