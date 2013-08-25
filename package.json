@@ -1,0 +1,16 @@
+{
+  "name" : "soundcontrol",
+  "description" : "Control and manage audio players (iTunes and Spotify) in OSX",
+  "keywords" : ["iTunes", "Spotify", "OSX", "music", "sound"],
+  "author": "Tom Moor <tom@sqwiggle.com> (http://tommoor.com)",
+  "contributors" : [
+    "Tom Moor <tom@sqwiggle.com> (http://tommoor.com)",
+    "Sqwiggle <tom@sqwiggle.com> (https://www.sqwiggle.com)"
+  ],
+  "repository" : {
+    "type": "git",
+    "url": "git://github.com/sqwiggle/soundcontrol-node.git"
+  },
+  "main" : "./lib/soundcontrol.js",
+  "version" : "0.1.0"
+}
