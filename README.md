@@ -15,21 +15,21 @@ SoundControl is a library for managing multiple music players including iTunes a
 
 ```js
 // pause all audio players
-sound.pauseAll();
+music.pauseAll();
 
 // resume playback in previously paused audio player
-sound.resume();
+music.resume();
 
 // you can also start playback in a specific app
-sound.play('iTunes');
+music.play('iTunes');
 
 // there are also some utility methods that are used internally
 // but are exposed as they may be useful such as:
-sound.isItunesPlaying(function(err, playing){
+music.isItunesPlaying(function(err, playing){
     if (playing) console.log('iTunes is currently playing');
 });
 
-sound.isSpotifyOpen(function(err, open){
+music.isSpotifyOpen(function(err, open){
     if (open) console.log('Spotify is currently open');
 });
 ```
