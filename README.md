@@ -15,7 +15,7 @@ SoundControl is a library for managing multiple music players including iTunes a
 
 ```js
 // pause all audio players
-music.pauseAll();
+music.pause();
 
 // resume playback in previously paused audio player
 music.resume();
