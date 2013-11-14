@@ -1,7 +1,7 @@
 {
   "name" : "soundcontrol",
-  "description" : "Control and manage audio players (iTunes and Spotify) in OSX",
-  "keywords" : ["iTunes", "Spotify", "Rdio", "OSX", "music", "sound"],
+  "description" : "Control and manage desktop audio players in Mac OSX",
+  "keywords" : ["iTunes", "Spotify", "Rdio", "Pandora", "OSX", "music", "sound"],
   "author": "Tom Moor <tom@sqwiggle.com> (http://tommoor.com)",
   "contributors" : [
     "Tom Moor <tom@sqwiggle.com> (http://tommoor.com)",
@@ -12,5 +12,5 @@
     "url": "git://github.com/sqwiggle/soundcontrol.git"
   },
   "main" : "./lib/soundcontrol.js",
-  "version" : "0.1.1"
+  "version" : "0.1.2"
 }
