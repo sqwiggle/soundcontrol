@@ -12,5 +12,5 @@
     "url": "git://github.com/sqwiggle/soundcontrol.git"
   },
   "main" : "./lib/soundcontrol.js",
-  "version" : "0.1.2"
+  "version" : "0.1.3"
 }
